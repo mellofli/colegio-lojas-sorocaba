@@ -1,0 +1,8 @@
+{
+  "name": "Colégio de Lojas Maçônicas da GLESP de Sorocaba e Região",
+  "description": "Website oficial do Colégio de Lojas Maçônicas da GLESP na região de Sorocaba e Região, com notícias, eventos, palestrantes e informações sobre as lojas participantes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
