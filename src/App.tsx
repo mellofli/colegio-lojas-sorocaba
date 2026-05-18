@@ -12,6 +12,9 @@ import News from './pages/News';
 import Events from './pages/Events';
 import Speakers from './pages/Speakers';
 import Lodges from './pages/Lodges';
+import Contact from './pages/Contact';
+
+import NoticiaDetalhe from './pages/NoticiaDetalhe';
 
 // Scroll to top on navigation component
 function ScrollToTop() {
@@ -32,9 +35,11 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/noticias" element={<News />} />
+            <Route path="/noticia/:id" element={<NoticiaDetalhe />} />
             <Route path="/eventos" element={<Events />} />
             <Route path="/palestrantes" element={<Speakers />} />
             <Route path="/lojas" element={<Lodges />} />
+            <Route path="/contato" element={<Contact />} />
           </Routes>
         </main>
         <Footer />

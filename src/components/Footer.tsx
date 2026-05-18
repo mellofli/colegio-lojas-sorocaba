@@ -33,23 +33,20 @@ export default function Footer() {
               <li><Link to="/eventos" className="hover:text-white transition-colors">Eventos</Link></li>
               <li><Link to="/palestrantes" className="hover:text-white transition-colors">Palestrantes</Link></li>
               <li><Link to="/lojas" className="hover:text-white transition-colors">Lojas Participantes</Link></li>
+              <li><Link to="/contato" className="hover:text-white transition-colors">Contato</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-serif text-lg font-bold mb-6 text-masonic-gold uppercase tracking-wider">Contato</h4>
             <ul className="space-y-4 text-slate-300 text-sm">
-              <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-masonic-gold shrink-0 mt-0.5" />
-                <span>Rua das Acácias, 100 - Sorocaba, SP</span>
-              </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-masonic-gold shrink-0" />
-                <span>(15) 3232-1234</span>
+                <span>(15) 99113-0569</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-masonic-gold shrink-0" />
-                <span>contato@colegiosorocaba.org.br</span>
+                <span>colegiomaconicoGlesp@outlook.com</span>
               </li>
             </ul>
           </div>
@@ -57,8 +54,7 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-lg font-bold mb-6 text-masonic-gold uppercase tracking-wider">Links Úteis</h4>
             <ul className="space-y-4 text-slate-300 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Secretaria Online</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Biblioteca Maçônica</a></li>
+              <li><a href="https://www.glesp.org.br" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GLESP</a></li>
             </ul>
           </div>
         </div>

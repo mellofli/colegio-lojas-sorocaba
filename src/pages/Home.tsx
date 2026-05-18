@@ -6,9 +6,15 @@
 import { Landmark, ArrowRight, ChevronRight, Scale, ShieldCheck, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { NEWS, EVENTS, LODGES } from '../constants';
-import { NewsCard, EventCard } from '../components/Cards';
+import { noticias } from '../data/noticias';
+import { LODGES, EVENTS } from '../constants';
+import { EventCard } from '../components/Cards';
 import { motion } from 'motion/react';
+
+function formatDate(dateStr: string) {
+  const [year, month, day] = dateStr.split('-');
+  return `${day}/${month}/${year}`;
+}
 
 function LodgeCrest({ id, name }: { id: string; name: string }) {
   const [extIndex, setExtIndex] = useState(0);
@@ -30,6 +36,10 @@ function LodgeCrest({ id, name }: { id: string; name: string }) {
 }
 
 export default function Home() {
+  const sortedNoticias = [...noticias].sort((a, b) => b.data.localeCompare(a.data));
+  const featured = sortedNoticias[0];
+  const recent = sortedNoticias.slice(1, 4);
+
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
@@ -106,39 +116,52 @@ export default function Home() {
             
             {/* Center: Featured News & Events */}
             <div className="lg:col-span-8 flex flex-col gap-8">
-              <div className="h-[400px] bg-masonic-blue rounded-lg p-0 relative flex flex-col justify-end text-white border-l-4 border-masonic-gold group overflow-hidden border border-white/10 shrink-0">
-                {NEWS[0].image && (
+              <Link 
+                to={featured ? `/noticia/${featured.id}` : "/noticias"} 
+                className="h-[400px] bg-masonic-blue rounded-lg p-0 relative flex flex-col justify-end text-white border-l-4 border-masonic-gold group overflow-hidden border border-white/10 shrink-0"
+              >
+                {featured?.imagem && (
                   <img 
-                    src={NEWS[0].image} 
-                    alt={NEWS[0].title}
+                    src={featured.imagem} 
+                    alt={featured.titulo}
                     className="absolute inset-0 w-full h-full object-cover opacity-60 md:opacity-40 group-hover:scale-105 transition-transform duration-700"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1541410945376-a7872f53434d?auto=format&fit=crop&q=80';
+                    }}
                   />
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-masonic-blue via-masonic-blue/40 to-transparent"></div>
                 <div className="relative z-10 p-8">
-                  <span className="bg-masonic-gold text-[10px] font-bold px-2 py-1 uppercase mb-4 inline-block tracking-widest text-masonic-blue">Destaque</span>
-                  <h3 className="text-3xl font-serif italic mb-2 leading-tight text-white">{NEWS[0].title}</h3>
-                  <p className="text-base text-slate-300 line-clamp-2 font-light italic">{NEWS[0].excerpt}</p>
+                  <span className="bg-masonic-gold text-[10px] font-bold px-2 py-1 uppercase mb-4 inline-block tracking-widest text-masonic-blue">{featured?.categoria || 'Destaque'}</span>
+                  <h3 className="text-3xl font-serif italic mb-2 leading-tight text-white line-clamp-2">{featured?.titulo || 'Aguardando novidades'}</h3>
+                  <p className="text-base text-slate-300 line-clamp-2 font-light italic">{featured?.resumo}</p>
                 </div>
-              </div>
+              </Link>
 
               <div className="flex flex-col gap-4">
                 <h2 className="text-[10px] font-bold text-slate-500 uppercase tracking-[0.2em] mb-2 border-b border-white/10 pb-2">Notícias Recentes</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {NEWS.slice(1, 4).map(item => (
-                    <div key={item.id} className="bg-white/5 p-4 border border-white/10 hover:border-masonic-gold/30 transition-all group cursor-pointer flex gap-4 items-center">
+                  {recent.map(item => (
+                    <Link key={item.id} to={`/noticia/${item.id}`} className="bg-white/5 p-4 border border-white/10 hover:border-masonic-gold/30 transition-all group cursor-pointer flex gap-4 items-center">
                       <div className="w-16 h-16 shrink-0 overflow-hidden bg-white/5 border border-white/10">
-                        {item.image ? (
-                           <img src={item.image} alt={item.title} className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
+                        {item.imagem ? (
+                           <img 
+                            src={item.imagem} 
+                            alt={item.titulo} 
+                            className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" 
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1541410945376-a7872f53434d?auto=format&fit=crop&q=80';
+                            }}
+                           />
                         ) : (
                            <div className="w-full h-full flex items-center justify-center text-white/10 italic font-serif">N</div>
                         )}
                       </div>
                       <div>
-                        <p className="text-[10px] font-bold text-masonic-gold uppercase mb-1">{item.date}</p>
-                        <h4 className="text-sm font-bold text-slate-200 uppercase group-hover:text-masonic-gold transition-colors line-clamp-1">{item.title}</h4>
+                        <p className="text-[10px] font-bold text-masonic-gold uppercase mb-1">{formatDate(item.data)}</p>
+                        <h4 className="text-sm font-bold text-slate-200 uppercase group-hover:text-masonic-gold transition-colors line-clamp-1">{item.titulo}</h4>
                       </div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>

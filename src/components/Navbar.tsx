@@ -27,6 +27,7 @@ export default function Navbar() {
     { name: 'Lojas', path: '/lojas' },
     { name: 'Eventos', path: '/eventos' },
     { name: 'Palestrantes', path: '/palestrantes' },
+    { name: 'Contato', path: '/contato' },
   ];
 
   return (
