@@ -149,7 +149,7 @@ export default function Contact() {
                         value={formData.nome}
                         onChange={handleChange}
                         required
-                        className="w-full border-b-2 border-slate-100 py-3 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-3 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="Ex: João da Silva"
                       />
                     </div>
@@ -161,7 +161,7 @@ export default function Contact() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className="w-full border-b-2 border-slate-100 py-3 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-3 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="email@exemplo.com"
                       />
                     </div>
@@ -175,7 +175,7 @@ export default function Contact() {
                         name="telefone"
                         value={formData.telefone}
                         onChange={handleChange}
-                        className="w-full border-b-2 border-slate-100 py-3 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-3 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="(15) 00000-0000"
                       />
                     </div>
@@ -186,7 +186,7 @@ export default function Contact() {
                         name="assunto"
                         value={formData.assunto}
                         onChange={handleChange}
-                        className="w-full border-b-2 border-slate-100 py-3 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-3 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="Assunto da mensagem"
                       />
                     </div>
@@ -200,7 +200,7 @@ export default function Contact() {
                       value={formData.mensagem}
                       onChange={handleChange}
                       required
-                      className="w-full border-2 border-slate-100 p-4 focus:border-masonic-gold outline-none transition-colors text-sm resize-none"
+                      className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-2 border-slate-100 p-4 focus:border-masonic-gold outline-none transition-colors text-sm resize-none"
                       placeholder="Como podemos ajudar?"
                     ></textarea>
                   </div>

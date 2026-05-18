@@ -152,7 +152,7 @@ export default function Speakers() {
                         value={formData.nomeSolicitante}
                         onChange={handleChange}
                         required
-                        className="w-full border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="Nome completo"
                       />
                     </div>
@@ -164,7 +164,7 @@ export default function Speakers() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className="w-full border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="email@exemplo.com"
                       />
                     </div>
@@ -178,7 +178,7 @@ export default function Speakers() {
                         name="telefone"
                         value={formData.telefone}
                         onChange={handleChange}
-                        className="w-full border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="(15) 00000-0000"
                       />
                     </div>
@@ -189,7 +189,7 @@ export default function Speakers() {
                         name="loja"
                         value={formData.loja}
                         onChange={handleChange}
-                        className="w-full border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="Nome e Número da Loja"
                       />
                     </div>
@@ -203,7 +203,7 @@ export default function Speakers() {
                         name="cargo"
                         value={formData.cargo}
                         onChange={handleChange}
-                        className="w-full border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="Ex: Venerável Mestre"
                       />
                     </div>
@@ -214,7 +214,7 @@ export default function Speakers() {
                         name="dataPretendida"
                         value={formData.dataPretendida}
                         onChange={handleChange}
-                        className="w-full border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
+                        className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-b-2 border-slate-100 py-2 focus:border-masonic-gold outline-none transition-colors text-sm"
                         placeholder="Ex: Próxima segunda"
                       />
                     </div>
@@ -227,7 +227,7 @@ export default function Speakers() {
                       name="observacoes"
                       value={formData.observacoes}
                       onChange={handleChange}
-                      className="w-full border-2 border-slate-100 p-4 focus:border-masonic-gold outline-none transition-colors text-sm resize-none"
+                      className="w-full bg-white text-slate-900 placeholder:text-slate-400 border-2 border-slate-100 p-4 focus:border-masonic-gold outline-none transition-colors text-sm resize-none"
                       placeholder="Detalhes adicionais sobre a solicitação..."
                     ></textarea>
                   </div>

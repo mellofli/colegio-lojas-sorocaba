@@ -34,8 +34,8 @@ export default function Navbar() {
     <nav className="bg-white masonic-header-border sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-24 items-center">
-          <Link to="/" className="flex items-center gap-4 group">
-            <div className="w-28 h-28 flex items-center justify-center shrink-0">
+          <Link to="/" className="flex items-center gap-4 group min-w-0">
+            <div className="w-20 h-20 md:w-28 md:h-28 lg:w-32 flex items-center justify-center shrink-0">
               {extIndex < extensions.length ? (
                 <img 
                   src={logoPath} 
@@ -49,19 +49,23 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-            <div className="flex flex-col overflow-hidden">
-              <span className="font-sans text-base md:text-xl font-bold text-masonic-blue uppercase tracking-tight leading-none truncate">Colégio de Lojas Maçônicas da GLESP - Sorocaba e Região</span>
+            <div className="flex flex-col min-w-0">
+              <span className="font-sans text-[10px] sm:text-xs md:text-sm lg:text-base font-bold text-masonic-blue uppercase tracking-tight leading-tight">
+                Colégio de Lojas Maçônicas da GLESP<br className="sm:hidden" />
+                <span className="hidden sm:inline"> - </span>
+                Sorocaba e Região
+              </span>
             </div>
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8 lowercase">
+          <div className="hidden md:flex items-center gap-4 lg:gap-6 lowercase flex-shrink-0 ml-4">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 className={cn(
-                  "text-xs font-bold uppercase tracking-wider transition-all hover:text-masonic-gold",
+                  "text-[10px] lg:text-xs font-bold uppercase tracking-wider transition-all hover:text-masonic-gold",
                   location.pathname === link.path 
                     ? "text-masonic-gold border-b border-masonic-gold pb-1" 
                     : "text-slate-600"
