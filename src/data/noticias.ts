@@ -35,15 +35,20 @@ export const noticias: Noticia[] = [
     id: "semana-lojas-conjuntas-2026",
     titulo: "Semana das Lojas Conjuntas fortalece a integração da 11ª Região",
     data: "2026-05-25",
-    resumo: "A 11ª Região realiza uma semana especial de sessões conjuntas, reunindo Lojas de Sorocaba e região.",
+    resumo: "A 1ª Semana das Lojas Conjuntas da 11ª Região teve início com Sessões Conjuntas em Sorocaba e Itapetininga.",
     imagem: "/assets/noticias/2026-05-25-semana-lojas-conjuntas.jpg",
     categoria: "Eventos",
     conteudo: `
-A Semana das Lojas Conjuntas da 11ª Região marca um importante momento de união, aprendizado e fortalecimento institucional.
+A 1ª Semana das Lojas Conjuntas da 11ª Região teve início com Sessões Conjuntas em Sorocaba e Itapetininga, marcando um momento histórico de união, integração e fortalecimento das Lojas, em uma iniciativa que movimentará cerca de 1.200 maçons da região.
 
-As atividades reúnem diversas Oficinas da região, com a presença de autoridades maçônicas e palestras voltadas à integração das Lojas.
+Em Sorocaba, as ARLS Colunas de Salomão nº 738, ARLS André Luiz nº 766, ARLS Colunas de Ipanema nº 799 e ARLS Tropeiros de Sorocaba nº 824 receberam o Grande Secretário de Assuntos Institucionais, Ir. Andrea Ceresa. O encontro também foi marcado pelo plantio de uma acácia, símbolo de renovação e permanência. Estiveram presentes os Delegados Distritais da 11ª Região: Paulo Guariglia, Marco Grilo, Marco Aurelio Paradizo, Eduardo Amaral, Camilo Botti, Felipe Mello e David Pereira Silva, da 6ª Região, 7º Distrito.
 
-O evento, que já se tornou uma tradição no calendário regional, visa aproximar os irmãos de diferentes orientes, promovendo a troca de experiências ritualísticas e administrativas, além de estreitar os laços de fraternidade que unem a família maçônica sorocabana.
+Em Itapetininga, a ARLS Harmonia e Trabalho nº 222, ARLS Fidelidade nº 931 e ARLS União Paulista Itapetininga nº 879 receberam o Grande Secretário da Cultura, Ir. Roberto Hathner, acompanhado pelo Delegado Regional da 11ª Região Marcel Marangon e o Delegado Distrital Luiz Fernando Junior e Hermínio Oliveira Neto da 38ª Região, além de José Vantuir de Souza Lopes Júnior - Juiz do TMR. ⁠
+
+A 1ª Semana das Lojas Conjuntas da 11ª Região segue como uma iniciativa histórica, construída pelo esforço coletivo das Lojas, Delegados e Irmãos, reafirmando que a verdadeira força da Maçonaria está na união, na presença ativa e no compromisso de cada Obreiro com o futuro da Instituição.
+
+GLESP — 11ª Região
+União, participação e fortalecimento de nossas Lojas.
     `
   },
   {
