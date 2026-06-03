@@ -77,3 +77,30 @@ A Semana reforçou o compromisso da 11ª Região com a integração entre as Loj
     `
   }
 ];
+ {
+    id: "semana-lojas-conjuntas-2026",
+    titulo: "Semana das Lojas Conjuntas fortalece a integração da 11ª Região",
+    data: "2026-05-25",
+    resumo: "A 1ª Semana das Lojas Conjuntas da 11ª Região teve início com Sessões Conjuntas em Sorocaba e Itapetininga.",
+    imagem: "/assets/noticias/2026-05-25-semana-lojas-conjuntas.jpg",
+    categoria: "Eventos",
+    conteudo: `
+A 1ª Semana das Lojas Conjuntas da 11ª Região – 2026 seguiu com grande participação dos Irmãos, consolidando uma iniciativa histórica de união, integração e fortalecimento das Oficinas da região.
+
+Na quinta-feira, 28 de maio, no Templo da Fraternidade Acaciana, em Sorocaba, reuniram-se as Lojas ARLS Fraternidade Acaciana nº 398 e ARLS Libertas de Salto nº 637. A Sessão contou com uma apresentação especial da Sessão do Oriente Eterno, rito criado pela Libertas de Salto, proporcionando aos presentes um momento de conhecimento, reflexão e valorização da tradição maçônica. Estiveram presentes o Delegado Regional Marcel Marangon e os Delegados Distritais Paulo Guariglia, Luis Fernando Alves, Marco Aurélio Paradizo e Eduardo Amaral.
+
+Na sexta-feira, 29 de maio, foi realizada a Sessão de Encerramento da 1ª Semana de Lojas Conjuntas, também no Templo da Fraternidade Acaciana, com a presença de 163 participantes. O encontro reuniu representantes das Lojas da 11ª Região e contou com a palestra do Sereníssimo Grão-Mestre da GLESP, Jorge Anysio Haddad, coroando a semana com uma mensagem de união, compromisso e fortalecimento institucional.
+
+Também prestigiaram a Sessão o Grande Ouvidor Francisco Cortês, o Grande Secretário dos Corpos de Aperfeiçoamento Maçônico Claudio Roberto Silva, o 2º Grande Vigilante Luiz Cesar Nitsche, o Delegado Regional Marcel Marangon, os Delegados Distritais Rogerio Turolo, Eduardo do Amaral, Luis Fernando Alves, Camilo Botti, Felipe Mello, Marco Grilo, Marco Aurelio Paradizo, André Leme, Alessandro Geminiani, Luiz Fernando Marques Junior e Paulo Guariglia, além do Grande Representante da África do Sul, Rui Badaró.
+
+No sábado, 30 de maio, a programação foi encerrada com o I Simpósio da Nova Gestão 2026–2027 da 11ª Região, realizado no Colégio O Farol, em Sorocaba, reunindo 122 participantes entre Veneráveis Mestres, Vigilantes, Oradores, Capelães, Secretários, Tesoureiros e Hospitaleiros das Lojas da região.
+
+O Simpósio teve abertura do Delegado Regional Marcel Marangon, palestra do Ir. Adriano Paparelli sobre “Gestão Eficaz para Lojas Maçônicas”, apresentação do Grande Secretário de Educação Maçônica, Roberto Nincao, sobre os projetos de sua pasta, e a participação especial do Eminente Grão-Mestre Adjunto Cesar Augusto Garcia e do Grande Ouvidor Francisco Cortês.
+
+Na condução dos módulos, participaram o *Delegado Regional Marcel Marangon, com os Veneráveis Mestres; os Delegados Distritais Paulo Guariglia, com os Secretários; Marco Grilo* e *Felipe Mello, com os Vigilantes; Francisco Saccomano Neto, com a Hospitalaria; e Alessandro Geminiani, com os Oradores.
+
+A 1ª Semana das Lojas Conjuntas da 11ª Região demonstrou a força da Maçonaria quando suas Lojas caminham juntas. Foram dias de aprendizado, presença, convivência fraterna e compromisso com uma gestão mais preparada, integrada e participativa, reafirmando o propósito comum de fortalecer nossas Oficinas e construir uma região cada vez mais unida.
+GLESP — 11ª Região
+União, participação e fortalecimento de nossas Lojas.
+    `
+  },
