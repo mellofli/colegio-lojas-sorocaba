@@ -36,7 +36,7 @@ export const noticias: Noticia[] = [
     titulo: "Semana das Lojas Conjuntas fortalece a integração da 11ª Região",
     data: "2026-05-25",
     resumo: "A 1ª Semana das Lojas Conjuntas da 11ª Região teve início com Sessões Conjuntas em Sorocaba e Itapetininga.",
-    imagem: "/assets/noticias/2026-05-25-1.jpg",
+    imagem: "/assets/noticias/2026-05-25-1.png", "/assets/noticias/2026-05-25-2.png", "/assets/noticias/2026-05-25-3.png",
     categoria: "Eventos",
     conteudo: `
 A 1ª Semana das Lojas Conjuntas da 11ª Região teve início com Sessões Conjuntas em Sorocaba e Itapetininga, marcando um momento histórico de união, integração e fortalecimento das Lojas, em uma iniciativa que movimentará cerca de 1.200 maçons da região.
