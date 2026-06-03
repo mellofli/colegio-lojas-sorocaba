@@ -55,15 +55,25 @@ União, participação e fortalecimento de nossas Lojas.
     id: "nova-gestao-2026",
     titulo: "Nova Gestão Projeta Avanços para o Colégio de Lojas",
     data: "2026-05-15",
-    resumo: "A nova diretoria do Colégio de Lojas da região de Sorocaba tomou posse com foco na integração regional.",
+    resumo: "A 1ª Semana das Lojas Conjuntas da 11ª Região – 2026 continua e segue com participação e fortalecimento das Lojas da região de maneira ativa.",
     imagem: "/assets/noticias/2026-05-15-nova-gestao.jpg",
     categoria: "Institucional",
     conteudo: `
-O Colégio de Lojas Maçônicas da GLESP de Sorocaba e Região deu início a uma nova etapa em sua trajetória com a posse da nova diretoria para o período 2026-2027.
+A 1ª Semana das Lojas Conjuntas da 11ª Região – 2026 continua e segue com participação e fortalecimento das Lojas da região de maneira ativa.
 
-O foco principal da nova gestão será a integração das mais de 20 lojas da jurisdição e o fomento à educação maçônica através de novos ciclos de palestras e seminários.
+Na sessão de terça-feira, no Templo da Fraternidade Acaciana, em Sorocaba, participaram as Lojas ARLS Fraternidade de Sorocaba nº 383, ARLS 4 de Julho nº 859, ARLS 25 de Julho nº 837, ARLS Discípulos de Adonhiram nº 729 e ARLS Luz, Vida e Amor nº 690. A palestra foi conduzida pelo 2º Grande Vigilante, Luiz Cesar Nitsche, com o tema “Entre a razão e as paixões: os passos do Maçom”. Estiveram presentes o Eminente Grão-Mestre Adjunto Cesar Augusto Garcia, o Delegado Regional Marcel Marangon e os Delegados Distritais Paulo Guariglia, Marco Grilo, Anderson Pereira, Eduardo Amaral, Marco Aurelio Paradizo e José Restife Neto [3ª Região Maçônica], além do irmão Antonio Roberto Barca [Secretário do Venerável Colégio].
 
-Entre as metas estabelecidas, destacam-se o fortalecimento das ações de caridade conjuntas e a modernização da comunicação entre as oficinas, garantindo que as informações e convites circulem de forma eficiente por todo o oriente.
+Na sessão da Abolição, em Tatuí, reuniram-se as Lojas ARLS Abolição nº 552, ARLS 11 de Agosto nº 627 e ARLS Fidelidade e Harmonia nº 904, com palestra do Grande Orador Carlos Olimpio Cunha sobre o papel da Maçonaria nos dias de hoje. Estiveram presentes o Delegado Distrital Eduardo Amaral e o representante da Abolição, Olegario Antunes Filho.
+
+Na sessão da Acácia Sorocabana, em Sorocaba, participaram as Lojas ARLS Acácia Sorocabana nº 97, ARLS 15 de Agosto nº 900 e ARLS Gotthold Ephraim Lessing nº 930. A palestra foi realizada pelo Grande Hospitaleiro Marcos Pelizzon, sobre a Grande Hospitalaria e os projetos da atual gestão. Estiveram presentes os Delegados Distritais Alessandro Geminiani, Paulo Guariglia e Luis Fernando Alves.
+
+Na sessão da São João, em Sorocaba, participaram as Lojas ARLS Justa e Perfeita Loja de São João nº 680, ARLS Fidelidade e Justiça nº 565 e ARLS Justiça e Liberdade nº 830. A palestra foi conduzida pelo 1º Grande Vigilante Luiz Eduardo Montello, com o tema “Platão e a Maçonaria: o justo e o perfeito”. Estiveram presentes os Delegados Distritais Marco Grilo, Camilo Botti e Marco Aurelio Paradizo.
+
+Na sessão da Pedra Fundamental, realizada no templo da ARLS Pedra Fundamental, participaram as Lojas ARLS Colunas de São Roque nº 446, ARLS Alvorecer de Ibiúna nº 362 e ARLS Pedra Fundamental nº 780. A palestra foi ministrada pelo Ir. Reinaldo Gomes, com o tema “Unidos pelo bem, movidos pelo coração maçônico”. Esteve presente o Delegado Distrital Anderson Pereira.
+
+Em Capão Bonito, na sessão da União e Firmeza, participaram as Lojas ARLS União e Firmeza nº 897 e ARLS Acácia de Apiaí nº 924. A palestra foi realizada pelo Grande Secretário dos Corpos de Aperfeiçoamento Maçônico, Claudio Roberto, sobre as Ordens Colaterais Inglesas e os projetos da atual gestão. Estiveram presentes o Delegado Regional Marcel Marangon, Francisco Saccomano Neto e Felipe Mello.
+
+A Semana reforçou o compromisso da 11ª Região com a integração entre as Lojas, a valorização dos Obreiros e a aproximação permanente com a GLESP, demonstrando que a força da Maçonaria se constrói com presença, trabalho e união fraterna.
     `
   }
 ];
