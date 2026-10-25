@@ -13,6 +13,7 @@ import Events from './pages/Events';
 import Speakers from './pages/Speakers';
 import Lodges from './pages/Lodges';
 import Contact from './pages/Contact';
+import Observatorio from './pages/Observatorio';
 
 import NoticiaDetalhe from './pages/NoticiaDetalhe';
 
@@ -40,6 +41,7 @@ export default function App() {
             <Route path="/palestrantes" element={<Speakers />} />
             <Route path="/lojas" element={<Lodges />} />
             <Route path="/contato" element={<Contact />} />
+            <Route path="/observatorio" element={<Observatorio />} />
           </Routes>
         </main>
         <Footer />
