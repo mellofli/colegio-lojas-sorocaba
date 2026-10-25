@@ -28,6 +28,7 @@ export default function Navbar() {
     { name: 'Eventos', path: '/eventos' },
     { name: 'Palestrantes', path: '/palestrantes' },
     { name: 'Contato', path: '/contato' },
+    { name: 'Observatório', path: '/observatorio' },
   ];
 
   return (
